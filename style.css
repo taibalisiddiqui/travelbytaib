@@ -1,0 +1,412 @@
+* navnar-start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Roboto", sans-serif;
+}
+
+#navbar{
+    background-color: #f9f9f9;
+}
+#logo{
+   font-size: 36px;
+   font-weight: 700;
+   color: black;
+   text-shadow: 0px 1px 1px black;
+   margin-bottom: 5px;
+}
+#logo > span{
+    color: yellow;
+}
+.navbar-toggler > span{
+    color: yellow;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background-color: orange;
+    color: white;
+}
+#navbar form button{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+/* navnar-end */
+
+
+/* home section Start */
+.home{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://tse2.mm.bing.net/th/id/OIP.JSFs1g6GPuJ_EkITU91KXgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url("https://tse2.mm.bing.net/th/id/OIP.JSFs1g6GPuJ_EkITU91KXgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"); */
+    
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+}
+.home .content h5{
+    color: white;
+    font-size: 36px;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 500;
+}
+.home .content h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 700;
+    margin-top: 5px;
+    
+}
+
+.change-content::after{
+    content: '';
+    color: orange;
+    text-shadow: 0px 1px 1px black;
+    animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "France";}
+    10%{content: "Germany";}
+    20%{content: "United Sates";}
+    30%{content: "Italy";}
+    40%{content: "Turkey";}
+    50%{content: "Australia";}
+    60%{content: "China";}
+    70%{content: "Pakistan";}
+    80%{content: "London";}
+    90%{content: "Paris";}
+}
+.home .content p{
+    color: white;
+    font-size: 15px;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-top: 30px;
+}
+
+.home .content a{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-weight: 550;
+    
+}
+.home .content a:hover{
+    background-color: orange;
+    color: white;
+}
+/* <!-- Section Book Start --> */
+/* .card{
+    width: 60%;
+} */
+.book{
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.maintext > h1{
+    text-align: center;
+    text-shadow: 0px 1px 1px black;
+    font-weight: 600;
+}
+.maintext> h1 > span{
+    color: orange;
+}
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book .row{
+    margin-top: 30px;
+}
+.book form input{
+    border: none;
+    color: black;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px -6px black;
+
+}
+.book .submit{
+    width: 160px;
+    font-size: 16px;
+    font-weight: 550;
+    background-color: orange;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 170px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+
+
+
+/* <!-- Section Book Start --> */
+
+
+/* section package start */
+
+.main-txt h1{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color: orange;
+}
+.package .card{
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0,0 ,0 ,0.1 )0px 4px 12px ;
+}
+.package .card .img{
+    border-radius: 5px;
+}
+.package .card .card-body{
+    background: transparent;
+
+
+}
+.package .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.package .card .card-body p{
+    font-size: 15px;
+    
+}
+.checked{
+    color: orange;
+    
+}
+.star i{
+    font-size: 15px;
+}
+.package .card .card-body h6{
+    font-size: 20px;
+}
+.package .card .card-body a{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+/* section package End */
+
+/* section services start */
+
+.service{
+    background: #f9f9f9;
+    margin-top: 50px;
+}
+.service .card{
+    box-shadow: rgba(0,0 ,0 ,0.1 )0px 4px 12px ;
+    border: none;
+    cursor: pointer;
+}
+.service .card i{
+    font-size: 80px;
+    text-align: center;
+    color: orange;
+    margin-top: 20px;
+
+
+}
+.service .card .card-body h3{
+    font-weight: 600;
+}
+.service .card .card-body{
+    text-align: center;
+}
+
+
+
+
+/* section services End */
+
+
+/* section Gallery Start */
+
+
+.gallery{
+    margin-top: 50px;
+}
+.gallery .card{
+    border-radius: 10px;
+    box-shadow: rgba(0,0 ,0 ,0.1 )0px 4px 12px;
+    cursor: pointer;
+
+}
+.gallery .card img{
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.gallery .card img:hover{
+    transform: scale(1.1);
+}
+/* section Gallery End */
+
+/* About section start */
+.about{
+    padding: 50px;
+    margin-top: 50px;
+    background: white;
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about p{
+    font-weight: 500;
+}
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border-radius: 5px;
+    background: orange;
+    color: white;
+    font-weight: 550;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+#about-btn:hover{
+    width: 170px;
+
+}
+/* About section end */
+
+
+
+/* footer section start */
+#footer{
+    width: 100%;
+    margin-top: 150px;
+    background: white;
+    text-align: center;
+}
+#footer h1{
+    font-weight: 600;
+    padding-top: 30px;
+    text-shadow: 0px 0px 1px black;
+}
+#footer h1 span{
+    color: orange;
+}
+.social-link i{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.social-link i:hover{
+    background: orange;
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+
+/* footer section start */
+
+
+@media (max-width:850px){
+    .home{
+        background-position: 50%;
+    }
+}
+@media (max-width:450px){
+    .book{
+        padding: 0;
+    }
+    .maintext h1{
+        padding: 20px;
+    }
+    
+}
+
+
+@media (max-width:450px){
+    .home .content h1{
+        font-size: 36px;
+    }
+    .home .content h5{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .home .content p{
+        font-size: 15px;
+    }
+    .service .card{
+        margin-bottom: 10px;
+    }
+    .gallery .card{
+        margin-bottom: 10px;
+    }
+    .about .card{
+        margin-bottom: 10px;
+    }
+    .about .card img{
+        height: 30vh;
+        width: 250px;
+        
+    }
+    
+    
+}
+
+
+
+
+/* home section End */
